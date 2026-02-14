@@ -1,30 +1,62 @@
-<div id="wrapper">
-  <div class="viewport">
-    <div class="cube">
-      <div class="side">
-        <div class="cube-image">Side 1</div>
-      </div>
-      <div class="side">
-        <div class="cube-image"><a href="http://nytimes.com" target="_blank">Side 2</a></div>
-      </div>
-      <div class="side">
-        <div class="cube-image">
-          <p style="font-size:23px;">Side 3</p>
-        </div>
-      </div>
-      <div class="side">
-        <div class="cube-image">Side 4</div>
-      </div>
-      <div class="side">
-        <div class="cube-image">
-          <p style="font-size:43px;">Side 5</p>
-        </div>
-      </div>
-      <div class="side">
-        <div class="cube-image active">
-          <p style="font-size:43px;">Side 6</p>
-        </div>
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My One Pager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <a href="#" class="logo">MySite</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to My Site</h1>
+    <p>A simple one-page website. Edit this to make it your own!</p>
+    <!-- To use an image from your imgs folder: -->
+    <!-- <img src="imgs/hero.jpg" alt="Hero image"> -->
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About</h2>
+    <p>Write a little about yourself or your project here.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <!-- Add your images from the imgs folder like this: -->
+      <!-- <img src="imgs/photo1.jpg" alt="Photo 1"> -->
+      <!-- <img src="imgs/photo2.jpg" alt="Photo 2"> -->
+      <!-- <img src="imgs/photo3.jpg" alt="Photo 3"> -->
+      <div class="placeholder">Add images to the <code>imgs/</code> folder</div>
     </div>
-  </div>
-</div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 MySite. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
